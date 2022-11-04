@@ -8,8 +8,8 @@ bindings for the methods using [pybind11](https://pybind11.readthedocs.io/en/lat
 ```
 pip3 install gcspy
 ```
+or clone this repository, make it current working directory and do
 
-## How to build
 ```
-python3 -m build .
+pip3 install .
 ```
