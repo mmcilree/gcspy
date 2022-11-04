@@ -5,4 +5,11 @@ class defined in api.hh/api.cc using only standard library types, and then gener
 bindings for the methods using [pybind11](https://pybind11.readthedocs.io/en/latest/) (added using FetchContent in CMake).
 
 ## How to install
-I've not entirely got the installation process streamlined yet, but the current procedure is as follows.
+```
+pip3 install gcspy
+```
+
+## How to build
+```
+python3 -m build .
+```
