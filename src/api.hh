@@ -68,7 +68,7 @@ public:
     auto post_table(const vector<string>& var_id, const vector<vector<long long int>>& table) -> void;
 private:
     const string proof_filename = "gcs_proof";
-    Problem p{ProofOptions{ proof_filename + ".opb", proof_filename + ".veripb"}};
+    Problem p{};
     // Python will use string ids to keep track of variables
     std::unordered_map<string, IntegerVariableID> vars{};
     // raw_value in gcs::Integer is a long long int
